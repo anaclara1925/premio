@@ -1,0 +1,26 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Você ganhou um Iphone 14</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script>
+        alert("Você ganhou um Iphone 14, clique em Ok, para receber seu prêmio!");
+    </script>
+
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Você ganhou um Iphone 14!!!</title>
+</head>
+<body>
+	<h2>Você ganhou um Iphone 14!!!</h2>
+	<button type="button"
+	onclick="document.getElementById('aqui').innerHTML = Date()">
+	Clique aqui para digitar seu endereço para entrega do prêmio</button>
+	<p id="aqui"></p>
+</body>
+</html>
